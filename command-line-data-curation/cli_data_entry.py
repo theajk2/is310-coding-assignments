@@ -12,10 +12,10 @@ table.add_row("Blue Lily, Lily Blue", "magical realism","2014")
 console.print(table)
 console.print("\n[bold orange]What's your favorite book? Input them:[/bold orange]")
 def save_text(table):
-      x = open('book_list.txt', 'a')  
+      var = open('book_list.txt', 'a')  
       for row_index in range(len(table.columns[0]._cells)):
               content = [str(column._cells[row_index]) for column in table.columns]
-              x.write("".join(content) + "\n")
+              var.write("".join(content) + "\n")
               print(content)
               
 def addBook():
@@ -36,3 +36,5 @@ def addBook():
                                 release_year = input("Enter the year your book was released!")
                                 save_text(oldTable)
                                 console.print("Your release date has been saved!")
+        console.print()
+addBook()
