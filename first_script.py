@@ -4,10 +4,10 @@ def check_movie_release(movie):
         print(f"{name} was released before 2000.")
     else:
         print(f"{name} was released after 2000.")
-        return name
-    
-recent_movies = []
+        
+    return movie
 
+recent_movies = []
 
 
 favorite_movies = [
@@ -20,8 +20,8 @@ favorite_movies = [
 ]
 
 for movie, year in favorite_movies:
-    result=check_movie_release(movie, year)
+    result = movie.check_movie_release(movie)
     if result is not None:
         recent_movies.append(result)
 
-print(recent_movies)
+print(recent_movies)x
