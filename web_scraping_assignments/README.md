@@ -1,0 +1,3 @@
+link to robots.txt: https://vampirechronicles.fandom.com/robots.txt
+
+I chose to scrape from the IWTV fandom wiki, because I watched that show recently and found it very engaging. For this assignment, I am going to be scraping characters from the wiki and whether or not they are marked as alive or dead under status. This would be interesting to researchers, as they could possibly notice a trend in which species of character (vampire, werewolf, angel) is more likely to be alive longer.
